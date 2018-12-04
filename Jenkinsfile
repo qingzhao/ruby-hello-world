@@ -2,7 +2,7 @@ node {
 
    stage('David do Switch over to new Version') {
      echo 'Hello World'
-     input "Switch Production?"
+     
      }
 
  stage('n') {
