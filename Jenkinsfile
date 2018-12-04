@@ -3,9 +3,7 @@ node {
    stage('David do Switch over to new Version') {
      echo 'Hello World'
      input "Switch Production?"
-     input '<p>hi</p>  haha'
-     input message: '', parameters: [booleanParam(defaultValue: false, description: '', name: 'parma_b')]
-   }
+     }
 
  stage('n') {
      echo 'Hello World'
